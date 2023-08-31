@@ -1,0 +1,14 @@
+{
+  "name": "projeto-individual-m4",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:Dayane99/projeto-individual-m4.git",
+  "author": "dayane99 <daystefane99@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node ./src/controller/propriedades.js"
+  },
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  }
+}

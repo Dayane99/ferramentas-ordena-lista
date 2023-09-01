@@ -11,6 +11,12 @@ class Propriedade {
         return this.listaPropriedades.sort()
     }
 
+    imprimirPropriedades(listaPropriedades) {
+        listaPropriedades.forEach(item => {
+            console.log(item)
+        });
+    }
+
 }
 module.exports = { Propriedade }
 
